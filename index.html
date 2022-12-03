@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/logo.png"
+      type="image/png"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Shopion</title>
+  </head>
+  <body>
+    <header class="header">
+      
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <div class="logo">
+            <img src="./images/logo.png" alt="logo" / style="width: 100px;">
+          </div>
+
+          <div class="nav-list d-flex">
+            <a href="">Ana Sayfa</a>
+            <a href="">Mağaza</a>
+            <a href="">Kategoriler</a>
+            <a href="">Hakkımızda</a>
+            <a href="">Favoriler</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Giriş Yap</a>
+          </div>
+
+          <div class="icons d-flex">
+            <input type="search" name="" id="" placeholder="Ara...">
+            <div class="icon d-flex"><i class="bx bx-search"></i></div>
+            <div class="icon user-icon d-flex">
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="icon d-flex">
+              <i class='bx bx-cart'></i>
+              <span></span>
+            </div>
+          </div>
+
+          <!--Hamburger Menu-->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </div>
+      </nav>
+
+      
+   
+    <section class="section categories">
+      <div class="title">
+        <span>KATEGORİLER</span>
+        <h2>Tüm Ürünler</h2>
+      </div>
+
+      <div class="products container">
+
+      </div>
+
+      <div class="button d-flex">
+        <a class="btn loadmore">Daha Fazla</a>
+      </div>
+    </section>
+
+       
+        <section class="section collection">
+          <div class="title">
+            <span>KOLEKSİYON</span>
+            <h2>En İyi Koleksiyonlarımız</h2>
+          </div>
+          <div class="filters d-flex">
+            <div data-filter="smartphones">Akıllı Telefonlar</div>
+            <div data-filter="laptops">Dizüstü Bilgisayarlar</div>
+            <div data-filter="fragrances">Kokular</div>
+            <div data-filter="skincare">Cilt Bakımı</div>
+            <div data-filter="groceries">Market</div>
+            <div data-filter="home-decoration">Ev Dekorasyon</div>
+    
+          </div>
+    
+          <div class="products container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper" id="products">
+                <div class="swiper-slide">
+    
+                </div>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="custom-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+    
+    <section class="section statistics">
+      <div class="title">
+        <span>İSTATİSTİKLER</span>
+        <h2>İstatistiklerimiz</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-check-square"></i>
+          </div>
+          <h3>Kolay Sipariş Sistemi</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eaque!</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>Zamanında Teslimat</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit.</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-dollar-circle"></i>
+          </div>
+          <h3>İade Garantisi</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>7/24 Müşteri Desteği</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/logo.png" alt="logo" / style="width: 200px;">
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. <br />
+            lorem ipsum dolor sit amet.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p class="color">
+            Copyrights 2022 <br />
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Product</h4>
+            <a href="">İndir</a>
+            <a href="">Fiyatlandırma</a>
+            <a href="">Konumlar</a>
+            <a href="">Sunucu</a>
+            <a href="">Ülkeler</a>
+            <a href="">Blog</a>
+          </div>
+          <div>
+            <h4>Category</h4>
+            <a href="">Erkek</a>
+            <a href="">Kadın</a>
+            <a href="">Çocuklar</a>
+            <a href="">En Çok Satanlar</a>
+            <a href="">Yeni Gelenler</a>
+          </div>
+          <div>
+            <h4>Hesabım</h4>
+            <a href="">Hesabım</a>
+            <a href="">Favoriler</a>
+            <a href="">İadeler</a>
+            <a href="">Sipariş Geçmişi</a>
+            <a href="">Sepetim</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <div class="user-form">
+      <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+      <div class="form-wrapper container">
+        <div class="user login">
+          <div class="img-box">
+            <img src="./images/login.svg" alt="" />
+          </div>
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Üye değil misin?
+                <span data-id="#ff0066">Hemen kayıt ol!</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Tekrar Merhaba</h2>
+                <p>Tekrar hoş geldin. Seni özledik.</p>
+                <input type="text" placeholder="Kullanıcı adı" />
+                <div>
+                  <input type="password" placeholder="Şifre" />
+                  <div class="icon form-icon">
+                    
+                  </div>
+                </div>
+                <span>Şifremi unuttum</span>
+                <input type="Submit" value="Giriş Yap" />
+              </div>
+              <div class="form-control">
+                <p>Sosyal Hesap İle Giriş Yap</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        
+        <div class="user signup">
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Zaten üye misin?
+                <span data-id="#1a1aff">Giriş yap!</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Shopion'a Hoş Geldin!</h2>
+                <p>Seni görmek güzel.</p>
+                <input type="email" placeholder="E-mail" />
+                <div>
+                  <input type="password" placeholder="Şifre" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <div>
+                  <input type="password" placeholder="Şifreyi onayla" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <input type="Submit" value="Kayıt ol" />
+              </div>
+              <div class="form-control">
+                <p>Sosyal Hesap İle Kayıt Ol</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="img-box">
+            <img src="./images/trial.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/product.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
