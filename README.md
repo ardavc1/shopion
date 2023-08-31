@@ -1,6 +1,37 @@
-# shopion
+# 🛒 Shopion E-Commerce Website
+
+It is a developed E-commerce website template.
+
+| | |
+|-|-|
+|👨‍💻 Developer|        🤵 Arda Avcı|
+|✨ Last Update| 📅 03.12.2022 |
+
+## 🎯 Contents
+
+| 💎 Feature |
+| - |
+| 🎨 Responsive Navbar with search,  shop cart, login page. |
+| ⚙️ Login and register page with advanced UI.  |
+| 🚄 Responsive categories section with advanced UI. |
+| 📃 Responsive products container with swiper and advanced UI. |
+| 📂 Footer with social icons, three columns and about section. |
 
 
-SHOPİON A E-COMMERCE WEBSİTE TEMPLATE!
+## 🪪  License
 
-note: everything is not working :( but soon...
+```
+Copyright 2023 Arda Avcı
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
